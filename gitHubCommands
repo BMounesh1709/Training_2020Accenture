@@ -1,0 +1,52 @@
+JDK
+JAVA_HOME --> C:\Program Files\Java\jdk1.8.0_231
+Path  --> C:\Program Files\Java\jdk1.8.0_231\bin
+
+Maven
+M2_Home --> C:\MAVEN2020\apache-maven-3.5.0-bin\apache-maven-3.5.0
+Path -- > C:\MAVEN2020\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin
+
+Git   
+http://git-scm.com/downloads
+Path  --> C:\Program Files\Git\cmd
+C:\Program Files\Git\cmd\git.exe
+
+
+echo "# Training_2020Accenture" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/BMounesh1709/Training_2020Accenture.git
+git push -u origin master
+
+
+https://github.com/fodari3213/
+
+https://github.com/godari3213/TestMe2.0.git
+https://github.com/BMounesh1709/CompleteCucumberProject.git
+
+mkdir testcode123
+git clone
+
+
+ip config
+IP Address : 10.211.155.38
+
+To make server
+java -jar selenium-server-standalone-3.141.59.jar -role hub
+http://localhost:4444/grid/console in Server
+http://serverIP:4444/grid/console in Node
+
+To make nodes
+java -Dwebdriver.chrome.driver="webdriver path" -jar selenium-server-standalone-3.141.59.jar -role node -hub http://"IP address of server system":4444/grid/register -port 5566
+
+
+java -Dwebdriver.chrome.driver="C:\\Users\\Training_h2a.06.17\\Desktop\\2020_Training\\chromedriver_win32 (1)\\chromedriver.exe" -jar selenium-server-standalone-3.141.59.jar -role node -hub http://10.211.155.59:4444/grid/register -port 5566
+java -Dwebdriver.chrome.driver="C:\\Users\\Training_h2a.06.17\\Desktop\\2020_Training\\chromedriver_win32 (1)\\chromedriver.exe" -jar selenium-server-standalone-3.141.59.jar -role node -hub http://10.211.155.59:4444/grid/register -port 5566
+
+
+
+
+
+
+
